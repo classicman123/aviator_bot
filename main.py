@@ -50,4 +50,4 @@ while True:
                     elif text.lower() == "/signal":
                         signal = generate_signal()
                         send_message(signal)
-    time.sleep(3
+    time.sleep(3)
