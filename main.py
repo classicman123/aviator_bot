@@ -51,3 +51,5 @@ while True:
                         signal = generate_signal()
                         send_message(signal)
     time.sleep(3)
+application.run_polling()
+print("✅ Bot is running...")
